@@ -1,0 +1,19 @@
+# ***** You must complete this file by 2/18 17:00pm *****
+# MP2 and MP3 are group MPs.
+# Each group can have one or two people.
+# While solo is acceptable, we encourage you to from a group for the MPs.
+# 1. If you form a group:
+#    - Please put your teammate's netid in a newline below your netid.
+#    - Both you and your teammate need to fill/commit/push this file.
+# 2. If you choose to do MPs solo:
+#    - Please put the keyword "solo" in a newline below your netid.
+alfredo7
+cdgerth2
+
+
+
+# Your group number is 5.
+# Your group repository link is https://gitlab.engr.illinois.edu/cs438-sp2020/mp2-mp3/group5.git
+# Group member(s): 
+#   alfredo7
+#   cdgerth2
