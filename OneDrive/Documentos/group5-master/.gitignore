@@ -1,0 +1,13 @@
+mp2/ls_router
+mp2/vec_router
+mp2/.vscode/*
+*.log
+mp2/launch_topo.sh
+mp2/ls_router_tmp
+mp2/vec_router_tmp
+mp3/reliable_receiver
+mp3/reliable_sender
+*.iso
+mp3/output.txt
+*.png
+*.rand

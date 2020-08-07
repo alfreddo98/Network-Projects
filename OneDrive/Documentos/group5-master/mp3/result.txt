@@ -1,0 +1,550 @@
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-04-27 18:23:22.832285
+Test Commit ID: 81929fc0a484fe7e2ac2f9373a1a67c0fde359f7
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 10.4331941604614 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.492620944976807 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.65991711616516 seconds.)
+-10	Test Case 6: Quick convergence failed: failed to send 20MB when measuring bandwidth with using one instance (receiver wrote 18862080 bytes.)
+-10	Test Case 7: TCP friendliness failed: TCP only got 3.03 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 44.2 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-04-28 18:01:44.127219
+Test Commit ID: ba38496728716a239db09d64c5101f746c207cda
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-10	Test Case 3: Sending 65MB failed: your program sent 65MB in 25.0154869556427 seconds (should take less than 20s.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.830682992935181 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.09281611442566 seconds.)
+-0	Test Case 6: Quick convergence succeeded!
+-10	Test Case 7: TCP friendliness failed: TCP only got 8.69 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 45.2 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-04-29 18:00:02.004018
+Test Commit ID: fd2493b2617f00b901ac4dddad7a83465fcd791a
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 6.28053307533264 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.325035095214844 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.33662104606628 seconds.)
+-10	Test Case 6: Quick convergence failed: failed to send 20MB when measuring bandwidth with using one instance (receiver wrote 16900096 bytes.)
+-10	Test Case 7: TCP friendliness failed: TCP only got 2.89 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 25.0 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-04-29 19:57:16.599284
+Test Commit ID: 1e6c7bcdb8b506177b1dac4e57c30022fc246b10
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 8.18642902374268 seconds.)
+-10	Test Case 4: Sending 1MB (with 5% loss) failed: 999424 of 1000000 bytes were written.
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.948288917541504 seconds.)
+-0	Test Case 6: Quick convergence succeeded!
+-10	Test Case 7: TCP friendliness failed: TCP only got 13.8 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 25.8 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-10	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) failed: 8192 of 10000 bytes were written after 10s.
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+70/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-04-30 19:50:20.523565
+Test Commit ID: aae2274fb026be0b0dd5d2a4f19064cec34cf968
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 6.63827300071716 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.333814144134521 seconds.)
+-10	Test Case 5: Sending 1MB (with 25% loss) failed: 999424 of 1000000 bytes were written.
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 3.39 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 38.6 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-18	Late Penalty: Last commit happens 9 hour(s) after due.
+-------------------- Score --------------------
+52/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-01 20:10:09.822783
+Test Commit ID: 3a28f4036228787d0d8f95e54e0cbaddb5d3342c
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 10.6388640403748 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.373294115066528 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.50813102722168 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 4.25 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 26.9 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-80	Late Penalty: Last commit happens 40 hour(s) after due.
+-------------------- Score --------------------
+0/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-02 19:52:33.659922
+Test Commit ID: 4f9e9db6de938a47cb055082bff9bd3f4bc49b3f
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 12.9324789047241 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 1.30316591262817 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.459589004516602 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 4.50 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 25.6 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-86	Late Penalty: Last commit happens 43 hour(s) after due.
+-------------------- Score --------------------
+0/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-03 20:24:45.779140
+Test Commit ID: b0f988257bacf8f4f69ae15afdd6a8acdb56918d
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 11.6439719200134 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.474120855331421 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.470941066741943 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 4.31 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 23.9 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-03 20:24:45.779140
+Test Commit ID: b0f988257bacf8f4f69ae15afdd6a8acdb56918d
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 10.8704779148102 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.494867086410522 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.425999164581299 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-0	Test Case 7: TCP friendliness succeeded! (TCP got 17.5 Mbps.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 28.0 Mbps.)
+-10	Test Case 9: Competing with TCP failed: received file has 65032868 bytes. The file does not match.
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-05 18:02:24.309648
+Test Commit ID: d8a07966eb2879fff755e875e1e2911768977bde
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.58892202377319 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.491344928741455 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.467209100723267 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-0	Test Case 7: TCP friendliness succeeded! (TCP got 18.8 Mbps.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 31.8 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+90/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-05 21:22:56.730611
+Test Commit ID: ad77427b9764801b5e400475b8c408d70407d0ae
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 10.3184659481049 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.470980882644653 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.435494184494019 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 7.09 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 22.6 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-06 20:22:04.800764
+Test Commit ID: a832566851757096bdf34405e538afa548d2a36e
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 13.0076200962067 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 1.16264295578003 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.411586999893188 seconds.)
+-0	Test Case 6: Quick convergence succeeded!
+-10	Test Case 7: TCP friendliness failed: TCP only got 4.24 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 30.5 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+90/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-07 20:44:04.467265
+Test Commit ID: 06df5641e399399c3bb06877c8e31a45da27221d
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 8.78912019729614 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 1.49479699134827 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.49092197418213 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 4.90 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 34.5 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-08 21:14:43.343923
+Test Commit ID: fdd885eb18a748c22129f2280b3c22e16afbdfc7
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.06094098091125 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 1.25170207023621 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.477159023284912 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 8.78 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 25.4 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-09 21:31:45.972612
+Test Commit ID: f2e11f47676dd0d3bc0b88fa8737101ebc2ffe08
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.86648917198181 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.407564878463745 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.470048904418945 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 3.59 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 26.7 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-11 18:06:12.498719
+Test Commit ID: 4984bc853c01c5970925bc093a403f60cf46caee
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 11.3542969226837 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.472105026245117 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.529881954193115 seconds.)
+-0	Test Case 6: Quick convergence succeeded!
+-10	Test Case 7: TCP friendliness failed: TCP only got 4.09 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 30.7 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+90/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-12 17:59:26.907344
+Test Commit ID: 8ede40e5d940764d3a0f84e0968feccd113f903d
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 10.3660769462585 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.482069969177246 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.37074685096741 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: your program died or ended early. (Note: it's being given 999000999000 as the numBytes argument.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 28.2 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-12 22:00:09.759130
+Test Commit ID: ae1c4d95bb7dc1eda54e8e06de94cd6edf2d4bbd
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.47762799263 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 1.10781097412109 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.424426794052124 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-0	Test Case 7: TCP friendliness succeeded! (TCP got 16.9 Mbps.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 35.9 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+90/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-13 21:41:59.046747
+Test Commit ID: 341f3db2d111fc0c71d3bca6eac1026f166400b5
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 8.8797550201416 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.376780033111572 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.27502298355103 seconds.)
+-0	Test Case 6: Quick convergence succeeded!
+-0	Test Case 7: TCP friendliness succeeded! (TCP got 20.3 Mbps.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 35.8 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+100/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-14 22:31:02.525279
+Test Commit ID: 9125445d1891a604249e287cce4e7f3bc8677084
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 10.3938980102539 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.445335865020752 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.43662691116333 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 5.07 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 34.9 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-15 21:49:55.315425
+Test Commit ID: 880451826c4c19c49284a8d7fe694d6e82a15ea6
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.46152901649475 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.51619291305542 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.478888988494873 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-0	Test Case 7: TCP friendliness succeeded! (TCP got 17.3 Mbps.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 35.0 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+90/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-16 22:19:09.759314
+Test Commit ID: 727b349e5df6022eeec6a0e662fbc163126233b7
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.71072793006897 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.459457874298096 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.430382966995239 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 3.63 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 25.1 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-17 20:14:21.402246
+Test Commit ID: 344ed72eac65a1ebbdcd4422c85f3e41b4d01b8e
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.44539594650269 seconds.)
+-10	Test Case 4: Sending 1MB (with 5% loss) failed: 999424 of 1000000 bytes were written.
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.42318892478943 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 3.81 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 31.3 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Ignored.
+-------------------- Score --------------------
+70/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-18 09:25:23.485674
+Test Commit ID: d5e39560319fba9ecd6d8a4a40d65eb4200e75ea
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 10.681841135025 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 1.34202289581299 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 0.461050987243652 seconds.)
+-10	Test Case 6: Program exceeded max allowed time.
+-0	Test Case 7: TCP friendliness succeeded! (TCP got 20.1 Mbps.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 32.4 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+90/100
+===================== End =====================
+
+
+=============== Auto-grader Test ===============
+Code Pull Time: 2020-05-18 09:25:23.485674
+Test Commit ID: d5e39560319fba9ecd6d8a4a40d65eb4200e75ea
+Group Status: Group of 2
+----------------- Test Results ----------------
+-0	Compile: Ok
+-0	Test Case 1: Sending a single byte succeeded!
+-0	Test Case 2: Sending 50KB succeeded!
+-0	Test Case 3: Sending 65MB succeeded! (Sent in 9.39695906639099 seconds.)
+-0	Test Case 4: Sending 1MB (with 5% loss) succeeded! (Sent 1MB in 0.478695869445801 seconds.)
+-0	Test Case 5: Sending 1MB (with 25% loss) succeeded! (Sent 1MB in 1.07224082946777 seconds.)
+-10	Test Case 6: Quick convergence failed: newcomer flow didn't get 20% of your protocol's optimal-conditions bandwidth fast enough.
+-10	Test Case 7: TCP friendliness failed: TCP only got 5.94 Mbps (need at least 15.)
+-0	Test Case 8: TCP friendliness (with 1% loss) succeeded! (TCP got 28.3 Mbps.)
+-0	Test Case 9: Competing with TCP succeeded!
+-0	Test Case 10: Sending 10KB (with 25% loss, 25% reorder) succeeded!
+-0	Late Penalty: Last commit happens before due.
+-------------------- Score --------------------
+80/100
+===================== End =====================
+
+
