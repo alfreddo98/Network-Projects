@@ -78,3 +78,41 @@ http://www.example.org/index.asp
 
 ## The Assignment – HTTP Server
 
+ ### The Basics
+Your code should compile to an executable named http_server. It should take one command line argument (the port
+number) and start listening on the port specified once started. Usage examples:
+
+sudo ./http_server 80
+
+./http_server 8888
+(The sudo is there because using any port <1024 requires root access.)
+
+You MUST use SO_REUSEADDR and SO_REUSEPORT when creating a socket. Failing to do so will lead to a penalty
+(see Section 5 for the grade breakdown).
+The server should handle HTTP GET requests by sending back HTTP responses, as described in detail below.
+Your server program should treat all file paths it's asked for as being relative to its current working directory. (Meaning
+just pass the client's request directly to fopen: if the client asks for somedir/somefile.txt, the correct argument to
+fopen is “somedir/somefile.txt”).
+Warning: running this http_server program essentially makes all files accessible by the http_server process
+accessible by anyone who can send a request to the host. Discretion is advised (Only run it on a VM)!
+
+## Details on HTTP response
+Your server's headers can be much simpler (but still correct and complete): just the status line (the first line of the
+header, contains the status code).
+• When correctly returning the requested document, use “HTTP/1.0 200 OK”.
+
+• When the client requests a non-existent file, use “HTTP/1.0 404 Not Found”. Note that you can still have
+document text on a 404, allowing for nicely formatted/more informative message such as “whoops, file not
+found!”
+
+• For any other errors, use “HTTP/1.0 400 Bad Request”.
+
+Per the HTTP standard, again an empty line (two CRLF, “\r\n\r\n”) marks the end of the header, and the start of
+message body.
+To summarize, your whole response should be: header + empty line + message body (the file requested if available)
+Reading the Wikipedia page HTTP message body may be helpful
+
+ ## Handling Concurrent Connections
+ Your server must support concurrent connections: if one client is downloading a 10MB object, another client that
+comes looking for a 10KB object shouldn't have to wait for the first to finish.
+Hint: you can do so by handling each connection in a new thread.
